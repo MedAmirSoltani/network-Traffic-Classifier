@@ -5,7 +5,7 @@ import pickle
 from io import StringIO
 from PIL import Image
 
-# Load model and preprocessing objects
+# Load model and preprocessing object
 with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
