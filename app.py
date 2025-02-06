@@ -47,7 +47,7 @@ st.set_page_config(page_title="Traffic Classifier", page_icon="🛡️", layout=
 # Sidebar for navigation
 st.sidebar.image("hacker.png", width=350)
 st.sidebar.title("🔒 Traffic Classifier")
-st.sidebar.write("Classify HTTPS traffic as **Heavy** or **Not Heavy** based on packet statistics.")
+st.sidebar.write("Classify Network traffic as **Heavy** or **Not Heavy** based on packet statistics.")
 
 # Input selection
 option = st.sidebar.radio("Choose Input Method", ["📂 Upload CSV", "✍️ Manual Entry"])
